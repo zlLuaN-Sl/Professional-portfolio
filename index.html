@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/net.webp" type="image/x-icon">
+
+   
+
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+</head>
+<body>
+    
+
+    <div class="particulas"></div>
+    
+    <nav class="navegacao">
+        <div class="mobile-btn" id="mobile-btn">
+            &#9776;
+        </div> 
+ 
+        <ul class="menu" id="menu">
+            <li><a href="#inicio" class="menu-link">Início</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#habilidades" class="menu-link">Habilidades</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contatos" class="menu-link">Contatos</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main id="inicio" class="cabecalho"> 
+            <img src="assets/img/Profile.jpg" alt="foto de Luan Silva" class="foto-perfil">
+            <h1>Luan Silva</h1>
+            <p class="cabecalho-sub-titulo">Desenvolvedor </p>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa"> 
+            <p class="sobre-paragrafo">
+                Olá! Meu nome é Luan Silva, sou desenvolvedor Front-end em transição para Full Stack.
+                Estudo programação há cerca de 2 anos, com foco em JavaScript e Tailwind CSS, e atualmente estou aprofundando meus conhecimentos em TypeScript e React.
+                Tenho um perfil voltado para criar soluções práticas e transformar ideias em projetos funcionais, sempre buscando evoluir como profissional. Sou formado em Análise e Desenvolvimento de Sistemas e também tenho certificado em Montagem e Manutenção de Computadores.
+                A tecnologia faz parte da minha vida desde os 14 anos e, hoje, meu objetivo é conquistar minha primeira oportunidade como desenvolvedor júnior.
+            </p>
+        </div>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+
+            <h1>Minhas especialidades</h1>
+            <div class="icones">
+                <img id="html" src="assets/icones dev/html5-icon-13.jpg" alt="html" />
+                <img src="assets/icones dev/css-icon.webp" alt="css" />
+                <img src="assets/icones dev/js.webp" alt="Js" />
+                <img src="assets/icones dev/git.png" alt="git" />
+                <img src="assets/icones dev/github.png" alt="github" />
+                <img src="assets/icones dev/Tailwind-CSS.webp" alt="html" />
+            </div>
+
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo"> Meus projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <a href="https://project-pizza-nu.vercel.app/" target="_blank">
+                    <img id="projeto1" src="assets/img/Project01.png" alt="" class="projetos-img" />
+                </a>
+                
+
+                <div class="caixa-textos-projetos"> 
+                    <h3 class="info-projetos">Pizzaria Prime</h3>
+                    <p class="paragrafo-projetos">Site de pizzaria totalmente responsivo, com uma seção dedicada para pedidos online. <br/> Tecnologia Usada:   HTML, CSS, JAVASCRIPT.</p>
+                 </div>   
+
+            </div>
+
+            <div class="projetos-card">
+                <a href="https://project-to-do-list-nine.vercel.app/"         target="_blank">
+                    <img src="assets/img/Project02.png" alt="Project To do List" class="projetos-img"/> 
+                </a>
+
+                <div class="caixa-textos-projetos"> 
+                    <h3 class="info-projetos">To Do List</h3>
+                    <p class="paragrafo-projetos">Este projeto consiste no desenvolvimento de uma aplicação de To Do List, criada com HTML, Tailwind CSS e JavaScript, com o objetivo de praticar e aplicar conceitos essenciais do desenvolvimento front-end.</p>
+                 </div>   
+
+            </div>
+
+            <div class="projetos-card">
+                <img src="https://cdn.vectorstock.com/i/1000v/49/90/loading-icon-black-background-vector-24544990.jpg" alt="" class="projetos-img" />
+
+                <div class="caixa-textos-projetos"> 
+                    <h3 class="info-projetos">LOADING</h3>
+                    <p class="paragrafo-projetos">LOADING...</p>
+                 </div>   
+
+            </div>
+
+            
+
+            
+
+           
+
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+
+            <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+                <div class="grupo-form">
+                    <input placeholder="Nome" class="campo-form" id="nome"> 
+                </div>    
+
+                <div class="grupo-form"> 
+                    <textarea class="campo-form" placeholder="Digite sua mensagem" rows="4" id="mensagem"></textarea>
+                </div>
+
+                <button type="submit" class="botao-form">Enviar WhatsApp</button>
+            </form>
+
+            <div class="icones-contatos">
+                <a  href="https://github.com/zlLuaN-Sl" target="_blank"> 
+                <img src="assets/icones dev/github.png" alt="github" />
+                </a>
+                <a href="https://www.linkedin.com/in/luansilvadevelop/" target="_blank">
+                <img src="assets/icones dev/linkedin.png" alt="linkedin" />
+                </a>
+            </div>
+    </section>
+    
+</body>
+</html>

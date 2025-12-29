@@ -27,6 +27,9 @@ menu.addEventListener('click', () => {
 
 
 
+
+
+
 const enviarWhats = (event) => {
     event.preventDefault()  
 

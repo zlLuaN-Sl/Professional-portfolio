@@ -381,3 +381,32 @@ h1 {
     }
 
 }
+
+@media (max-width:500px) {
+
+    .icones {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:20px
+    }
+
+    .icones div {
+        display: flex;
+        gap: 20px;
+    }
+    .icones img, 
+    .icones-contatos img {
+        width:40px;
+    }
+
+    .cabeçalho h1, 
+    .habilidades h1, 
+    .projetos h2, 
+    .sobre h2, 
+    .contatos h2 {
+        font-size: 1.7rem;
+    }
+
+}

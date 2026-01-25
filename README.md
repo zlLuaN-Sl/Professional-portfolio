@@ -4,7 +4,7 @@ Bem-vindo ao meu portfólio profissional!
 Este projeto reúne minhas principais habilidades, experiências e projetos desenvolvidos ao longo da minha jornada como **Desenvolvedor Front-end**.
 
 🔗 **Acesse o portfólio online:**  
-👉 https://seu-link-do-portfolio.vercel.app
+👉 https://professional-portfolio-gamma-six.vercel.app/
 
 ---
 
